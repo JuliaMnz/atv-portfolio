@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // Importando os arquivos de rotas individuais
-const userRouter = require('./userRouter'); 
+const userRouter = require('./userRouter');
 const experienciaRouter = require('./experienciaRouter');
 
 // Definindo os caminhos
