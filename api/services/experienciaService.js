@@ -1,6 +1,9 @@
 const { Experiencia } = require('../models');
 
 module.exports = {
+  async listAll() {
+  return await Experiencia.findAll(); 
+  }, 
   async create(data) {
     return await Experiencia.create(data);
   },
